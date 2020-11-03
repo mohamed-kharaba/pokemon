@@ -1,0 +1,28 @@
+.single-pokemon {
+    border: 1px solid $borderColor;
+    width: 350px;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff;
+    .close {
+        cursor: pointer;
+        float: right;
+    }
+    .name-pok{
+        font-weight: bold;
+        color: $secColor;
+        margin: 10px 0;
+        text-transform: capitalize;
+    }
+    .info{
+        text-align: left;
+        margin-top: 20px;
+        color: $secColor;
+        .item{
+            margin-bottom: 15px;
+        }
+        ul{
+            padding-left: 25px;   
+        }
+    }
+}
